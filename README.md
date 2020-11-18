@@ -13,6 +13,8 @@ Ans. Robot Operating System is robotics middleware (i.e. collection of software 
     > Multi Language
     *LIMITATIONS*
     > Maximum Size of a Message
+    > Powerful hardware Required
+    
     
 Q. Explain the following :
   A. Workspace -  
