@@ -32,3 +32,20 @@ Q. Explain the following :
   E. Messages - A message is a simple data structure, comprising typed fields
   
   F. Services - Services are defined using srv files, which are compiled into source code by a ROS client library. 
+  
+  Q. What is a subscriber and publisher?
+  
+  Ans The primary mechanism for ROS nodes to exchange data is sending and receiving messages. Messages are transmitted on a topic, and    each topic has a unique name in the ROS network. If a node wants to share information, it uses a publisher to send data to a topic. A node that wants to receive that information uses a subscriber to that same topic. 
+ 
+  Q . Explain the following :
+  
+  A. Roscore - roscore is a collection of nodes and programs that are pre-requisites of a ROS-based system. You must have a roscore running in order for ROS nodes to communicate. 
+  
+  B. Rosrun - Rosrun is part of the rosbash suite. It helps to start a program.
+  
+  C. Rostopic list - rostopic list returns a list of all topics currently subscribed to and published.
+  
+  D. Rostopic echo - topicname returns the messages being sent from the ROS master about a specific topic, topicname.
+  
+  E. Rosmsg Show - Display the fields in a ROS message type
+  
